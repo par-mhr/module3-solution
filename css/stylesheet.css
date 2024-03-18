@@ -1,0 +1,56 @@
+
+*{
+  font-family: Roboto, sans-serif;
+}
+.navbar-static-top {
+    background-color: #2196f3;
+    color: white;
+    
+}
+
+#top-navbar-brand, button.navbar-toggle.collapsed {
+    color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+#box {
+  color: white;
+  position:relative;
+  border: 2px solid black;
+  background-color: #2196f3;
+  padding: 10px;
+  margin: 4%;
+  
+}
+
+#menu {
+  font-family: "Handlee", cursive;;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+#chickenBt, #beefBt, #sushiBt{
+  color: white;
+}
+@media (min-width: 768px) {
+    #chickenBt {
+      display: none;
+    }
+    #beefBt {
+      display: none;
+    }
+    #sushiBt {
+      display: none;
+    }
+  }
